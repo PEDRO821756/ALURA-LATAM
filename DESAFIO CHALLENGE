@@ -1,0 +1,8 @@
+# Simple Currency Converter: USD to EUR
+def convertir_usd_a_eur(cantidad_usd, tasa_cambio):
+    return cantidad_usd * tasa_cambio
+# Ejemplo de uso
+cantidad_usd = 100
+tasa_cambio = 0.85  # Ejemplo: 1 USD = 0.85 EUR
+cantidad_eur = convertir_usd_a_eur(cantidad_usd, tasa_cambio)
+print(f"{cantidad_usd} USD son {cantidad_eur:.2f} EUR.
